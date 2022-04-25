@@ -1,0 +1,17 @@
+// Sweet Class Diagram
+// -------------------
+
+[python]>[program]
+[ir]>[program]
+[codegen]>[program]
+[runtime]>[program]
+[ir]>[codegen]
+[artifact]>[codegen]
+[runtime]>[codegen]
+[artifact]>[runtime]
+[system]>[runtime]
+// Add notes
+[common]-[note: Common lib that others depend on.]
+[type]-[note: Common lib that others depend on.]
+[snode]-[note: Common lib that others depend on.]
+[gui]-[note: Peripheral targets]
